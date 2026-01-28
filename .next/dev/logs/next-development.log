@@ -27,3 +27,47 @@ Expected '</', got '}'
 [02:33:25.062] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [02:34:17.729] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [02:34:41.135] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:40:51.788] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:41:54.428] Server  LOG     ✓ Compiled in 46ms
+[02:43:41.390] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.392] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.393] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.479] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.484] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.490] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.549] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.554] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.563] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.610] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.611] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.612] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.668] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.670] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.671] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.721] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.722] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.722] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.725] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.746] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.747] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.749] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.769] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.770] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.771] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.777] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.796] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.798] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.799] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.810] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:41.842] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:42.593] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:42.649] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:42.649] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:42.650] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'substring')
+[02:43:52.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:44:00.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:44:56.389] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:47:29.703] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:49:53.751] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:50:40.727] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:58:53.073] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

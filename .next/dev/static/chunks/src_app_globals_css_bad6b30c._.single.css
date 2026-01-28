@@ -494,6 +494,10 @@
     margin-top: calc(var(--spacing) * 12);
   }
 
+  .mt-auto {
+    margin-top: auto;
+  }
+
   .-mb-6 {
     margin-bottom: calc(var(--spacing) * -6);
   }
@@ -978,6 +982,10 @@
 
   .opacity-20 {
     opacity: .2;
+  }
+
+  .opacity-80 {
+    opacity: .8;
   }
 
   .transition {

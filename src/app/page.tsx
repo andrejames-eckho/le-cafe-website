@@ -20,15 +20,17 @@ export default function Home() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <SpecCard
+                            brand="OSD PRO"
                             model="S210"
                             type="2-Way Speaker"
                             freqResponse="50Hz - 20kHz"
                             impedance="4 Ohms"
-                            drivers={["75core Neodymium", "2x 10\" Woofers"]}
+                            drivers={["75-core Neodymium", "2x 10\" Woofers"]}
                             sensitivity="1 watt/peak @ 1 meter: 97dB / 130 dB"
                         />
                         <SpecCard
-                            model="OSDPRO M6"
+                            brand="OSD PRO"
+                            model="M6 Active"
                             type="Studio Monitor"
                             freqResponse="60Hz - 18kHz"
                             impedance="8 Ohms"
@@ -36,12 +38,13 @@ export default function Home() {
                             sensitivity="87dB @ 2.83V"
                         />
                         <SpecCard
-                            model="Tower Reference"
-                            type="4-Way Ported"
-                            freqResponse="22Hz - 40kHz"
-                            impedance="6 Ohms"
-                            drivers={["Ribbon", "2\" Mid", "2x 10\" Sub"]}
-                            sensitivity="93dB @ 2.83V"
+                            brand="OSD PRO"
+                            model="S6-IW"
+                            type="IN-WALL SPEAKER"
+                            freqResponse="80Hz - 20kHz"
+                            impedance="8 Ohms"
+                            drivers={["36-Core Neodymium", "1.4\" Voice Coil", "6.5\" Neodymium Sub", "11.5\" Voice Coil"]}
+                            sensitivity="1 watt/peak @ 1 meter: 93dB / 122 dB"
                         />
                     </div>
                 </div>

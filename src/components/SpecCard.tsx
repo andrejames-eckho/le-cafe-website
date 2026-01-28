@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 interface SpecCardProps {
+    brand: string;
     model: string;
     type: string;
     freqResponse: string;
@@ -10,6 +11,7 @@ interface SpecCardProps {
 }
 
 export default function SpecCard({
+    brand,
     model,
     type,
     freqResponse,
@@ -18,17 +20,18 @@ export default function SpecCard({
     drivers
 }: SpecCardProps) {
     return (
-        <div className="hardware-border bg-charcoal-dark p-6 max-w-md w-full font-mono">
+        <div className="hardware-border bg-charcoal-dark p-6 max-w-md w-full font-mono flex flex-col h-full">
             <div className="flex justify-between items-start mb-6 border-b border-white/10 pb-4">
                 <div>
-                    <h3 className="text-glow text-lg mb-1">{model}</h3>
-                    <p className="text-[10px] text-crema/40 uppercase tracking-[0.2em]">Product Reference: LC-AS-{model.substring(0, 10).toUpperCase()}</p>
+                    <div className="text-[10px] text-glow mb-1 font-bold tracking-widest uppercase opacity-80">{brand}</div>
+                    <h3 className="text-crema text-lg mb-1">{model}</h3>
+                    <p className="text-[10px] text-crema/40 uppercase tracking-[0.2em]">Product Reference: LC-AS-{brand.substring(0, 3).toUpperCase()}-{model.substring(0, 10).replace(/\s/g, "").toUpperCase()}</p>
                 </div>
                 <div className="text-right">
                     <div className="text-[10px] text-crema/40 uppercase mb-1">Status</div>
                     <div className="flex items-center gap-2 justify-end">
                         <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-                        <span className="text-[10px] text-green-500">SPECIFIED</span>
+                        <span className="text-[10px] text-green-500">AVAILABLE</span>
                     </div>
                 </div>
             </div>
@@ -69,7 +72,7 @@ export default function SpecCard({
                 </tbody>
             </table>
 
-            <div className="mt-8 pt-4 border-t border-white/10 flex justify-between items-center bg-white/5 -mx-6 -mb-6 px-6 py-4">
+            <div className="mt-auto pt-4 border-t border-white/10 flex justify-between items-center bg-white/5 -mx-6 -mb-6 px-6 py-4">
                 <span className="text-[9px] text-white/20 tracking-tighter">SPECIFICATION DATA SHEET v3.0 // AUDIO SYSTEM</span>
                 <button className="text-[10px] text-glow hover:underline hover:text-white transition-all uppercase">
                     Technical Drawings
