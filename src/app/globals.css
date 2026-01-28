@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+    /* Coffee Culture */
+    --color-umber-light: #4B3621;
+    --color-umber: #2C1E14;
+    --color-umber-dark: #1A120B;
+
+    --color-crema-light: #F5E6CA;
+    --color-crema: #D4B483;
+    --color-crema-dark: #A6865A;
+
+    /* Audio Tech */
+    --color-charcoal-light: #333333;
+    --color-charcoal: #121212;
+    --color-charcoal-dark: #080808;
+
+    --color-glow: #FF4D00;
+    --color-glow-dim: #B33600;
+
+    /* Fonts */
+    --font-sans: var(--font-inter), ui-sans-serif, system-ui;
+    --font-mono: var(--font-space-mono), ui-monospace, SFMono-Regular;
+
+    /* Custom */
+    --shadow-glow: 0 0 15px rgba(255, 77, 0, 0.5);
+    --shadow-hardware: inset 1px 1px 0px rgba(255, 255, 255, 0.1), 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+:root {
+    --foreground: var(--color-crema);
+    --background: var(--color-charcoal);
+}
+
+@layer base {
+    body {
+        @apply bg-charcoal text-crema font-sans antialiased selection:bg-glow selection:text-white;
+        background: linear-gradient(to bottom,
+                transparent,
+                var(--color-charcoal-dark)) var(--color-charcoal);
+        min-height: 100vh;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-mono uppercase tracking-widest text-crema-light;
+    }
+}
+
+@layer components {
+    .hardware-border {
+        @apply border-umber-light border-2 relative;
+        box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.05),
+            1px 1px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .glass-panel {
+        @apply bg-charcoal/40 backdrop-blur-md border border-white/10;
+    }
+
+    .clicky-button {
+        @apply active:translate-y-px active:shadow-inner transition-all duration-75;
+    }
+}
+
+.bg-radial-gradient {
+    background-image: radial-gradient(circle, var(--tw-gradient-stops));
+}
