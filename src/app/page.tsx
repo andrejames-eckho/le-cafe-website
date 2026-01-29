@@ -1,10 +1,12 @@
 import Hero from "@/components/Hero";
 import SpecCard from "@/components/SpecCard";
+import BrandBanner from "@/components/BrandBanner";
 
 export default function Home() {
     return (
         <main className="min-h-screen">
             <Hero />
+            <BrandBanner />
 
             <section className="py-24 px-4 bg-charcoal">
                 <div className="max-w-7xl mx-auto">
