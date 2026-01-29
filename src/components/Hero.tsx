@@ -2,6 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Hero() {
     const [isWarmedUp, setIsWarmedUp] = useState(false);
@@ -90,9 +91,11 @@ export default function Hero() {
                     transition={{ delay: 0.8 }}
                     className="mt-12"
                 >
-                    <button className="hardware-border px-8 py-3 clicky-button hover:bg-crema hover:text-charcoal-dark font-mono text-sm tracking-widest">
-                        ENTER THE LISTENING ROOM
-                    </button>
+                    <Link href="/listening-room">
+                        <button className="hardware-border px-8 py-3 clicky-button hover:bg-crema hover:text-charcoal-dark font-mono text-sm tracking-widest">
+                            ENTER THE LISTENING ROOM
+                        </button>
+                    </Link>
                 </motion.div>
             </div>
 
